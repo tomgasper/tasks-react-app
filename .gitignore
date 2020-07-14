@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# mac DS_Store
+.DS_Store
+
 # config
 config.js
 
