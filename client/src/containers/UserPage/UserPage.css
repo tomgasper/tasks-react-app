@@ -1,0 +1,165 @@
+/* USERPAGE */
+
+.userpage-tasks-container {
+    height:80%;
+    width:50%;
+}
+
+.userpage-header {
+    font-size:30px;
+    margin-top: 20px;
+    color: #444444;
+}
+
+.userpage-header svg {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.userpage-header span {
+    font-weight: 57;
+    color:black;
+}
+
+.userpage-tasks-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60vw;
+    margin: 20px 0;
+}
+
+.userpage-tasks-date {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    color: #838383;
+}
+
+.userpage-tasks-group-container {
+    /* background-color: rgba(177, 177, 86, 0.26); */
+    background-color: rgba(60, 226, 151, 1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    /* border-left: 1px solid black; ; */
+}
+
+.userpage-tasks-date-icon {
+    width:25px;
+}
+
+/* TASK */
+
+.userpage-task-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width:250px;
+    max-height: 100%;
+    margin: 20px;
+    padding: 20px;
+    animation-name: example2;
+    animation-duration: 120ms;
+    animation-timing-function: ease-out;
+    transition: 80ms;
+    transition-timing-function: ease-out;
+}
+
+@keyframes example2 {
+    0%   { opacity:0.3 }
+    100% { opacity:1 }
+  }
+
+.userpage-task-container:hover {
+    box-shadow: 2px 8px 5px -1px rgba(0,0,0,0.12);
+}
+
+.userpage-task-footer {
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width:100%;
+    margin: 5% 0 0 0;
+    justify-content: space-between;
+}
+
+.userpage-task-body {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    align-self: flex-start;
+    color:black;
+    transition: 60ms;
+    transition-timing-function: ease-out;
+}
+
+.userpage-task-body-text {
+    
+}
+
+.userpage-task-reactions {
+    display:flex;
+    width:50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.userpage-task-delete {
+    height:20px;
+    opacity:0.7;
+}
+
+.userpage-task-delete:hover {
+    cursor:pointer;
+    opacity:1;
+}
+
+.userpage-task-body-text:hover {
+    color:blue;
+}
+
+.userpage-task-author {
+    color: #2F86EC;
+    font-size: 16px;
+}
+
+.userpage-task-author:hover {
+    color:blue;
+}
+
+.userpage-task-avatar {
+    
+}
+
+.userpage-task-date {
+    margin: 0 10px 0px 0;
+}
+
+.userpage-task-date svg {
+    width:20px;
+}
+
+.userpage-task-info {
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    width:100%;
+    color: #838383;
+}
+
+.userpage-task-comments {
+}
+
+.userpage-task-comments svg {
+    width:25px;
+}

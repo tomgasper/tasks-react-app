@@ -1,0 +1,118 @@
+/* LOGIN SECTION */
+
+#login {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:250px;
+}
+
+#login-form-container
+
+#login-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.login-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* .login-form input:hover {
+    cursor: pointer;
+} */
+
+#loginUsername {
+    width:250px;
+    margin: 0% 0 10% 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    height:35px;
+    padding: 0% 5%;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255);
+    transition: all 110ms ease-out;
+}
+
+#loginUsername:focus {
+    background-color: rgba(60, 226, 151, 0.336);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+}
+
+#loginPwd {
+    width:250px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height:35px;
+    text-align: center;
+    padding: 0% 5%;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255);
+}
+
+#loginPwd:focus {
+    background-color: rgba(60, 226, 151, 0.336);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
+}
+
+input:focus{
+    outline: none;
+}
+
+#login-submit-button {
+    background-color: #3CE298 ;
+    align-self: flex-end;
+    margin: 13% 0 0% 0;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 4%;
+    border: 2px solid white;
+    min-width: 80px;
+    min-height: 40px;
+    animation-name: example;
+    animation-duration: 320ms;
+    animation-timing-function: ease-out;
+}
+
+@keyframes example {
+    0%   {margin: 0% 0 0% 0; opacity:0.3 }
+    100% {margin: 13% 0 0% 0; opacity:1 }
+  }
+
+#login-submit-button:hover {
+    background-color: white;
+    cursor: pointer;
+
+}
+
+/* ERROR */
+
+.login-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    padding: 15px;
+    height: 35px;
+    margin: 10%;
+    border-radius: 15px;
+    animation-name: fade-in;
+    animation-fill-mode: forwards;
+    animation-duration: 320ms;
+    animation-timing-function: ease-out;
+    transition: 1000ms;
+}
+
+@keyframes fade-in {
+    0%   {opacity:0 }
+    100% {opacity:1}
+  }
